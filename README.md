@@ -4,7 +4,9 @@ A dotnet webapi with remote config on vault without appsettings file, it will fe
 No more pain, no more suffering anymore.
 
 Ask your devops engineer to put this on environment variable before starting up the app:
+
 export VAULT_ADDR="your_vault_address"
+
 export VAULT_TOKEN="your_vault_token"
 
 Vault Secret Path:
