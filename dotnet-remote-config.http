@@ -1,0 +1,6 @@
+@dotnet_remote_config_HostAddress = http://localhost:5289
+
+GET {{dotnet_remote_config_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
